@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="4b9204e8-e70f-4c80-84de-4c30b9c5a28c" name="Website" linkedPackageId="358b89d8-4423-4985-ae92-5af7dfbfd423" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="8e44f2a1-796a-40a8-a779-4c701473b8b6" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="f191cff7-bc40-4758-a23a-284b2f4fe748" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="75500647-f3c9-4095-850a-5bf3293baef7">
+          <propertyInstance Id="bddb78c6-48a2-4916-b808-4a916e020d59" name="BaseName">
+            <elementDefinition Id="e4b5fc41-6796-4c95-bead-4207d04b6e04" />
+          </propertyInstance>
+          <elementDefinition Id="b7464389-d879-45b7-b0a2-46f2a22fa333" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e53e5b46-d5e8-4feb-9727-33a082a37af7">
+          <propertyInstance Id="51a265ef-ccb3-4460-9440-5029e6d84c54" name="ClrAttributes">
+            <elementDefinition Id="e27ea86f-f338-4b3d-afaf-1ea96ae9be64" />
+          </propertyInstance>
+          <elementDefinition Id="542a002d-2597-4600-816b-cbd73103eba2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7764f945-6908-4b4b-b236-3126a71b798e">
+          <propertyInstance Id="1bb8ac12-9b2a-4bf4-88b0-9315b974163b" name="Usings">
+            <elementDefinition Id="93578207-5769-4565-afe6-1d6de85b9973" />
+          </propertyInstance>
+          <elementDefinition Id="1f2da189-8b4c-4d11-809c-16ae51e43956" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="b6f11c5d-a1b7-4e5f-8d95-2a7c2f90fd62" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="61604d75-d4e8-4621-8fdc-a2daa1bdf410" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="12aac750-abed-4f4a-ab84-cf0388620148">
+          <propertyInstance Id="4e4d99c6-cea2-4d18-9ac3-1afbae29389d" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="fcf3bc60-4ab4-431e-9b3c-f24980a5d01a" />
+          </propertyInstance>
+          <elementDefinition Id="ceef827f-2763-45aa-9f00-b9f6c3239b2f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a6c7d7ef-8bd9-479f-8e64-b0d7051643d5">
+          <propertyInstance Id="6f0b7b1b-0d84-4d64-8383-65167bda6571" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="eebd5fcb-f9fb-46a6-8ef9-3309e3f4a408" />
+          </propertyInstance>
+          <elementDefinition Id="725af1e1-bf97-4a18-bb3e-0d7b6f7458d5" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="982135dd-a478-46cf-96e3-b35d72f4f264">
+          <propertyInstance Id="e0ac793a-494f-4ae1-b3b7-f5898285bf1b" name="ProjectPath" value="ClassTemplate=..\HouseholdAppliances\HouseholdAppliances.csproj|EnumTemplate=..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj|InterfaceTemplate=..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj|StructTemplate=..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj">
+            <elementDefinition Id="ce5589f5-6b6f-4db8-ae29-84c5af92a33d" />
+          </propertyInstance>
+          <elementDefinition Id="e330d7ea-d644-463d-99ab-2b435a8c708d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="da5b5ddf-e68e-43d6-bd01-ad5a4934259f">
+          <propertyInstance Id="85d70192-f009-45ea-87bc-4625f88c05e4" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="a92775e1-cf8c-47c1-8fd9-66ad7452d837" />
+          </propertyInstance>
+          <elementDefinition Id="3e6b8522-7d72-4e0f-be6b-fc4f45920f0c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3e92a4e2-235a-40f9-bc8b-3eab14ab9464">
+          <propertyInstance Id="c0dbd754-e9f8-4e16-9d83-f48c008358e5" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="5569c7dc-9674-499e-a705-6d924b6ea32b" />
+          </propertyInstance>
+          <elementDefinition Id="464b2bf3-96ee-463c-a0a2-d64315563aae" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="01441824-177e-4a19-bf2c-ffd50e413618">
+          <propertyInstance Id="b0e64c6e-24e8-4267-ba9c-9fb79bc0dd3e" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="065d2747-0b9f-4669-a03f-8dd5744a2380" />
+          </propertyInstance>
+          <elementDefinition Id="19d15d33-eda3-4167-b7b7-770783e57f7a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9715ff43-483c-4fa1-b555-da270d6a6429">
+          <propertyInstance Id="fb4a3fd0-4ec2-4639-a54a-f6fa6fe686ec" name="Parameters">
+            <elementDefinition Id="f713c049-5dca-41df-85ae-6ba0bd7ee0cb" />
+          </propertyInstance>
+          <elementDefinition Id="11411ad0-1fa7-4ddf-9af3-d745bd2ace2c" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="f225199e-afeb-4a3d-a593-2a782fed08fb" name="Посетитель" isAbstract="false" isLeaf="false">
+        <description>Человек, который посещает сайт</description>
+        <elementDefinition Id="88c280db-45cc-4427-8e41-c23e0ac0cef2" />
+        <targetEnds>
+          <association Id="4aac5804-9829-4c8e-8f93-50a8894fdd65" isDerived="false" sourceEndRoleName="Посетитель" targetEndRoleName="Просмотр корзины" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9e0f2fc6-b56e-4549-b31e-2c12e23c28d0" LastKnownName="Посмотреть корзину" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d4126fba-29e0-4ec7-8943-3571d2c50b93" name="Посетитель" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a8bb0766-4bd7-41dd-83bd-9b53eb48604d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9d360cf6-1c3b-4d3f-86d2-05457ec6222a" name="Просмотр корзины" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fdd581ab-7903-4ed4-af4a-0319b074c339" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c64beba8-2172-45fc-977a-cc694a767d9c" />
+          </association>
+          <association Id="8adff7bc-c894-4ea3-92a7-1715cc382131" isDerived="false" sourceEndRoleName="Посетитель" targetEndRoleName="Регистрация" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="20a42bc5-5581-4c37-b295-4b10e4fb6843" LastKnownName="Зарегистрироваться" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="33f1c744-8480-44e8-a517-9e5f4dc30048" name="Посетитель" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5f85a104-b42e-42b1-8c3b-3761ca527719" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7bdab81a-923a-45b0-9503-a36b708cd4c9" name="Регистрация" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ec6c43ea-f1b9-4956-bf94-3ec0e8034015" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="404fe6cf-e0e3-40e8-97bd-96b5d7f4022a" />
+          </association>
+          <association Id="38d206d8-f569-4ee9-a34b-13fbe38ed3d9" isDerived="false" sourceEndRoleName="Посетитель" targetEndRoleName="Просмотр товаров" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0f7633fc-7670-4eea-b5fb-d1f863e4ffc4" LastKnownName="Посмотреть товары" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="278cb7f4-b359-4f24-8faf-e0941d4566a8" name="Посетитель" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a15203ac-a070-45b6-bbd1-d59bccfc9e16" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="81e8bcfc-51f9-452e-a9ae-f10745bec857" name="Просмотр товаров" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="72204514-7dfc-473a-b8d5-6f884371a3b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4186eb10-9490-4377-92c4-8929eebba060" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0f7633fc-7670-4eea-b5fb-d1f863e4ffc4" name="Посмотреть товары" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ee9d48ba-3c26-49ec-87ff-adbfce6e380d" />
+        <subjects>
+          <subsystemMoniker Id="912f8324-c140-4f4b-aa43-db004f505c65" LastKnownName="Каталог товаров" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="20a42bc5-5581-4c37-b295-4b10e4fb6843" name="Зарегистрироваться" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="45c935d2-890c-431d-8400-45d29f071595" />
+        <subjects>
+          <subsystemMoniker Id="7d65b429-c5a1-4a18-be9a-6f236a9dd17a" LastKnownName="Регистрация" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9e0f2fc6-b56e-4549-b31e-2c12e23c28d0" name="Посмотреть корзину" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c89e3f4f-32cc-4af9-b55a-40cb0a72aea9" />
+        <subjects>
+          <subsystemMoniker Id="30122c64-79de-4b97-b34d-d3b2a04af1be" LastKnownName="Корзина" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a4bef36f-bfe2-4cd3-bec4-6db862c5480b" name="Добавить  в корзину" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e0ea813e-b405-4eef-ae56-9b15fc57907a" />
+        <extendedCases>
+          <extend Id="f6172f37-7ad8-46a2-a8b6-4d2f3b2bca2d">
+            <useCaseMoniker Id="0f7633fc-7670-4eea-b5fb-d1f863e4ffc4" LastKnownName="Посмотреть товары" />
+            <elementDefinition Id="921bde55-36dd-4046-b499-4102cb093a31" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="912f8324-c140-4f4b-aa43-db004f505c65" LastKnownName="Каталог товаров" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="835d7705-2497-46b5-af46-98b60d1c9df1" name="Удалить товары из корзины" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8c93e505-4014-48eb-ab17-c41405405dce" />
+        <extendedCases>
+          <extend Id="df94200e-2aa2-491f-add9-17ca1f7fbc75">
+            <useCaseMoniker Id="9e0f2fc6-b56e-4549-b31e-2c12e23c28d0" LastKnownName="Посмотреть корзину" />
+            <elementDefinition Id="079177bb-d004-4b24-93c8-340ae04033ac" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="30122c64-79de-4b97-b34d-d3b2a04af1be" LastKnownName="Корзина" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="28f414b0-48c3-472a-9abe-7f0ba76d8eed" name="Измененить количество товаров в корзине" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a397ecf2-fce0-4de9-abdb-6089d82fc7e1" />
+        <extendedCases>
+          <extend Id="a2450de2-7a54-4acd-8cc8-b1ed8e8b7322">
+            <useCaseMoniker Id="9e0f2fc6-b56e-4549-b31e-2c12e23c28d0" LastKnownName="Посмотреть корзину" />
+            <elementDefinition Id="adff2080-9302-414e-8222-354c644cd65b" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="30122c64-79de-4b97-b34d-d3b2a04af1be" LastKnownName="Корзина" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cbd989b5-0783-4eff-9ab6-b15ebf7486ca" name="Оформить заказ" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a9180062-005f-48eb-83a0-fea2be8dd4d7" />
+        <extendedCases>
+          <extend Id="7b27d34d-9200-4c26-8832-404f17a0b4cf">
+            <useCaseMoniker Id="a4bef36f-bfe2-4cd3-bec4-6db862c5480b" LastKnownName="Добавить  в корзину" />
+            <elementDefinition Id="940db23c-f338-4dc2-bccd-7e89f62c75a4" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="7c00e731-de45-442d-b6c2-6db5951b4a4e">
+            <useCaseMoniker Id="ac84136d-3838-42bc-9517-38125afa3715" LastKnownName="Сохранить заказ в файл" />
+            <elementDefinition Id="4f8711e3-0c26-4dfe-86c5-e3b92652de67" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="05aae473-4199-4205-bdf8-5c416339ad31" LastKnownName="Система оформления заказов" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f29269cc-9bde-42d5-b301-858419b9e2e4" name="Ввести промокод" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="adf9d168-4b7e-4910-a5bc-a3d5d85a6ebe" />
+        <extendedCases>
+          <extend Id="a20bf81c-7057-4ee4-8fde-c493b5459673">
+            <useCaseMoniker Id="cbd989b5-0783-4eff-9ab6-b15ebf7486ca" LastKnownName="Оформить заказ" />
+            <elementDefinition Id="2e81d97a-850f-4673-bd17-114116559110" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="05aae473-4199-4205-bdf8-5c416339ad31" LastKnownName="Система оформления заказов" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c900e862-329e-4d02-8963-9dce82c27458" name="Пользователь" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="65145bb4-0649-4764-9a20-2b286d456af8" />
+        <targetEnds>
+          <association Id="655fac49-cf16-40bb-9d96-5536a00a1107" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="Посмотреть корзину" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9e0f2fc6-b56e-4549-b31e-2c12e23c28d0" LastKnownName="Посмотреть корзину" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ab54d298-35e6-4599-aba7-dbf9667be436" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8bf64a0d-abdc-41bd-a58f-ac23631956c6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="41ba7ffe-aa81-4b8a-9339-49efc130b33b" name="Посмотреть корзину" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="47f192dc-826b-4d2b-9aa6-5f1006338676" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f3745f12-4936-4512-9eed-b857d2b8349a" />
+          </association>
+          <association Id="b710f7ab-2cc0-4579-99f7-6262ce7b0c74" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="Посмотреть товары" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0f7633fc-7670-4eea-b5fb-d1f863e4ffc4" LastKnownName="Посмотреть товары" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="50c98020-eb73-4a5c-b051-42a9da598e57" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8d3be83c-db4d-4316-9121-da31873c0958" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a272e5c1-14c9-4aae-8eff-8387374b53db" name="Посмотреть товары" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b3a0914b-5859-4e89-a463-661094008ed2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c54d0027-894c-4408-b476-38493170c181" />
+          </association>
+          <association Id="29e1a1ff-831a-406a-b930-e293699b475a" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="Авторизироваться" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="831383fd-181b-4b9b-8f31-0d9319ab2686" LastKnownName="Авторизироваться" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0621262c-3188-4315-be2c-94085a99ba24" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f77de16a-ea84-4da1-9e09-cc1d8a9264cd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="98861af2-0fe9-4626-95bd-f46e8231f93a" name="Авторизироваться" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="31dbf6c3-1bde-4fd6-adc7-660f159c2511" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f1fda94a-1e8f-419b-bcd1-5402f820987c" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="831383fd-181b-4b9b-8f31-0d9319ab2686" name="Авторизироваться" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0cad0599-9db3-465b-9bd5-ab6de8d0c32c" />
+        <additions>
+          <include Id="e93e4d2e-27c8-4f47-81bc-ed3651df4a42">
+            <useCaseMoniker Id="cbd989b5-0783-4eff-9ab6-b15ebf7486ca" LastKnownName="Оформить заказ" />
+            <elementDefinition Id="079a20d0-b090-4d21-9335-4f224cd62520" />
+          </include>
+          <include Id="68e8cff1-cba7-427d-825b-25bb5d2a6019">
+            <useCaseMoniker Id="33e52bf7-fdc9-4c8d-a198-d8d2bfde379f" LastKnownName="Зайти в личный кабинет" />
+            <elementDefinition Id="757424d9-79f6-4f45-a47b-9b89fb671566" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="218e24b5-a001-4cce-bf22-775fcdd2ad97" LastKnownName="Личный кабинет" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="7d65b429-c5a1-4a18-be9a-6f236a9dd17a" name="Регистрация" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="307acc45-64ed-4b86-9096-83e687f5cc68" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="30122c64-79de-4b97-b34d-d3b2a04af1be" name="Корзина" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4d8a01a4-bec6-4ed1-95af-c9163ab65fc0" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="912f8324-c140-4f4b-aa43-db004f505c65" name="Каталог товаров" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a689720c-ecfe-40ab-9705-3abbc70d01b0" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="218e24b5-a001-4cce-bf22-775fcdd2ad97" name="Личный кабинет" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="540cef74-87e2-465e-880d-e955faf7427f" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="05aae473-4199-4205-bdf8-5c416339ad31" name="Система оформления заказов" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="161d151d-38d4-41fe-a17c-bb64d0eebdb2" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="80049802-853e-4488-92e9-ab461d59ed24" name="Посмотреть историю заказов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bdc59a67-5578-4444-b440-9933cccbca66" />
+        <subjects>
+          <subsystemMoniker Id="218e24b5-a001-4cce-bf22-775fcdd2ad97" LastKnownName="Личный кабинет" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a8cb597b-e7d1-4ef2-9b2a-6b917bf3904d" name="Отменить заказ" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ea02fcc5-8442-461d-846f-5ac22b90eb68" />
+        <extendedCases>
+          <extend Id="27245ba9-e6b6-4b62-9872-29f1439244aa">
+            <useCaseMoniker Id="80049802-853e-4488-92e9-ab461d59ed24" LastKnownName="Посмотреть историю заказов" />
+            <elementDefinition Id="1d2c9369-3acd-4f61-86ea-ae6f9ec5bbb8" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="218e24b5-a001-4cce-bf22-775fcdd2ad97" LastKnownName="Личный кабинет" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ac84136d-3838-42bc-9517-38125afa3715" name="Сохранить заказ в файл" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fba8a222-f0fb-4752-b18d-59bea12891d3" />
+        <subjects>
+          <subsystemMoniker Id="05aae473-4199-4205-bdf8-5c416339ad31" LastKnownName="Система оформления заказов" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a2f5e570-1c88-4788-85ed-1df8f5315453" name="Выбрать формат файла" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6959da84-abd2-499e-859b-207e1ee56fff" />
+        <generalsInternal>
+          <generalization Id="b7f43d69-946d-4cbe-ad87-664d583c1d89" isSubstitutable="false">
+            <useCaseMoniker Id="ac84136d-3838-42bc-9517-38125afa3715" LastKnownName="Сохранить заказ в файл" />
+            <elementDefinition Id="8745c02f-af7e-4f1b-8bdc-d5a5e8ef6e30" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="05aae473-4199-4205-bdf8-5c416339ad31" LastKnownName="Система оформления заказов" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="33e52bf7-fdc9-4c8d-a198-d8d2bfde379f" name="Зайти в личный кабинет" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="714aafcf-08dc-443b-89ac-7215f6691f32" />
+        <additions>
+          <include Id="bb349634-7800-437d-91bd-f48ab60a045d">
+            <useCaseMoniker Id="80049802-853e-4488-92e9-ab461d59ed24" LastKnownName="Посмотреть историю заказов" />
+            <elementDefinition Id="3384302d-1a32-40b6-9122-1ee3740eb566" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="218e24b5-a001-4cce-bf22-775fcdd2ad97" LastKnownName="Личный кабинет" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="dfd11b2b-913c-46fe-b744-29e688c47cf3" name="Изменить данные" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d118f9f5-5402-4568-a261-cd1ec07d61b4" />
+        <extendedCases>
+          <extend Id="dae43180-e00a-4834-a029-3f830f62f492">
+            <useCaseMoniker Id="33e52bf7-fdc9-4c8d-a198-d8d2bfde379f" LastKnownName="Зайти в личный кабинет" />
+            <elementDefinition Id="6443ceb2-0fd0-43d4-8025-04d08b3614e2" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="218e24b5-a001-4cce-bf22-775fcdd2ad97" LastKnownName="Личный кабинет" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="358b89d8-4423-4985-ae92-5af7dfbfd423" name="AudioVideoEquipment.Models">
+    <elementDefinition Id="dffe5a66-be2f-44a3-a662-4275cf37af6a" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3a3ee3df-df7b-43b1-add4-afc09c13e5f5">
+        <profileInstance Id="d99c3d67-d152-43f7-b923-b89c8044cb62" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="a7bd7a9b-4214-4ccd-9cae-7775cef8b644">
+        <profileInstance Id="fc7b5a26-8c0f-47cd-9955-86dfb81488b8" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d58b0e47-d634-4ad2-92ee-83723db298b1">
+        <profileInstance Id="a274efa5-e67d-477e-9552-bf4a8744be6f" name="CSharpProfile">
+          <elementDefinition Id="80a81e9b-a0ba-4df6-9dd9-c9a6a2b1eb1d" />
+        </profileInstance>
+        <elementDefinition Id="6fe19cdc-cd72-45e8-adca-317f6b9933e6" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f64b0dc7-c919-4628-a482-a54fd1575477">
+        <profileInstance Id="78712f1c-bd72-4191-8dfc-e11aea1261cc" name="TextTemplateBindings">
+          <elementDefinition Id="aefb76b3-b1b7-4dae-a387-658d0cb34c3d" />
+        </profileInstance>
+        <elementDefinition Id="8b67ea0f-fa47-4ac5-b162-82f8efb5b440" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="12e6494f-b3e8-4e0d-b6df-154b0313dcfc" name="BrowsingProducts" linkedPackageId="e3986cf2-ed8d-4cb1-9c5b-d27bb351a707" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="a76074a6-27be-4e68-8015-17da9f4a5a1e">
+      <elementDefinition Id="6cb81945-ecec-4449-84a2-e7360c37ec82" />
+      <body>Посмотреть весь список товаров?</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="35c4f06e-2f8e-41b6-bcf4-56b934f3f534" LastKnownName="Decision1" />
+      </annotatedElements>
+    </comment>
+    <comment Id="02655df6-f601-450d-963f-94deffeb31ae">
+      <elementDefinition Id="6cf63e78-34c6-46e8-b196-04e485f65955" />
+      <body>Выбрать метод поиска товара</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="3f32c910-fee2-44f4-8354-b60580a9495f" LastKnownName="Decision2" />
+      </annotatedElements>
+    </comment>
+    <comment Id="0af809eb-6d26-4d5d-9cc3-7733fdfe086a">
+      <elementDefinition Id="f7011cdf-6e41-453b-a58a-eaa2a3dbc481" />
+      <body>Есть промокод?
+</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="76455b07-25ae-4031-9910-51d5f49a729c" LastKnownName="Decision3" />
+      </annotatedElements>
+    </comment>
+    <comment Id="ae0d7179-3214-4d65-84f8-0c1e1f1bafd6">
+      <elementDefinition Id="17706350-1368-47c1-bbe9-769e07b3a0cd" />
+      <body>Получение результата фильтрации</body>
+      <annotatedElements>
+        <mergeNodeMoniker Id="2a62d2f3-3618-44a4-9d56-3499089e7123" LastKnownName="Merge1" />
+      </annotatedElements>
+    </comment>
+    <comment Id="081d7208-77de-46e1-911f-8bf7ac26063e">
+      <elementDefinition Id="7a3ad5ed-4ff7-4ee4-bb98-fa166a0f8fad" />
+      <body>Пользователь зарегестрирован?</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="018fe6e9-e998-430c-98bf-9ae6e879ad7a" LastKnownName="Decision4" />
+      </annotatedElements>
+    </comment>
+    <comment Id="168ef3e3-47bd-4f48-b6ab-7d2f9ee07638">
+      <elementDefinition Id="604942fd-8136-400c-a349-4c1a9660c3b6" />
+      <body>В каком формате файла сохранить заказ?</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="19b57732-7ac2-456f-a170-a5a6bfce8925" LastKnownName="Decision5" />
+      </annotatedElements>
+    </comment>
+    <comment Id="6b119c55-56b8-4b43-a523-987904f44d2f">
+      <elementDefinition Id="4a2f7655-6f1c-474a-bb38-1bf6f99a69c8" />
+      <body>Сохранение файла
+</body>
+      <annotatedElements>
+        <mergeNodeMoniker Id="4a3bbf19-24fe-43d9-a64c-4b4f41fb694a" LastKnownName="Merge2" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="a9c247b2-08d0-459f-969b-fa560bd7ec93" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="f191cff7-bc40-4758-a23a-284b2f4fe748" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d44a2c64-b2bf-4dd0-8e64-388172045668">
+          <propertyInstance Id="d45224cd-c452-44e4-a5bf-3ed3950af253" name="BaseName">
+            <elementDefinition Id="e4b5fc41-6796-4c95-bead-4207d04b6e04" />
+          </propertyInstance>
+          <elementDefinition Id="b7464389-d879-45b7-b0a2-46f2a22fa333" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2c104cf9-249e-4821-88da-ea914d7cd8d7">
+          <propertyInstance Id="4483617d-c106-48a7-9c85-6846a0aed5ae" name="ClrAttributes">
+            <elementDefinition Id="e27ea86f-f338-4b3d-afaf-1ea96ae9be64" />
+          </propertyInstance>
+          <elementDefinition Id="542a002d-2597-4600-816b-cbd73103eba2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e3037500-9e5d-4fd9-9bc9-7f9fcd6bbcb1">
+          <propertyInstance Id="55591c05-f76d-4585-8bae-8eb018c58b89" name="Usings">
+            <elementDefinition Id="93578207-5769-4565-afe6-1d6de85b9973" />
+          </propertyInstance>
+          <elementDefinition Id="1f2da189-8b4c-4d11-809c-16ae51e43956" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="411d0c26-baa6-4e9c-b034-89e06d67afd0" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="61604d75-d4e8-4621-8fdc-a2daa1bdf410" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2f8708cf-923c-4d78-a2f7-56a1fe623a74">
+          <propertyInstance Id="db94e1ac-5626-40a1-adea-fcf0699731cb" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="fcf3bc60-4ab4-431e-9b3c-f24980a5d01a" />
+          </propertyInstance>
+          <elementDefinition Id="ceef827f-2763-45aa-9f00-b9f6c3239b2f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="40c9131d-73be-4571-bfbf-fac156d93061">
+          <propertyInstance Id="de7412da-c700-4fb9-a1e2-a59dc9dd37ae" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="eebd5fcb-f9fb-46a6-8ef9-3309e3f4a408" />
+          </propertyInstance>
+          <elementDefinition Id="725af1e1-bf97-4a18-bb3e-0d7b6f7458d5" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b4bf817e-25e1-43a2-a715-27e401858979">
+          <propertyInstance Id="7cbf599c-c168-41ea-9245-2cff891333ae" name="ProjectPath" value="ClassTemplate=..\HouseholdAppliances\HouseholdAppliances.csproj|EnumTemplate=..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj|InterfaceTemplate=..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj|StructTemplate=..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj">
+            <elementDefinition Id="ce5589f5-6b6f-4db8-ae29-84c5af92a33d" />
+          </propertyInstance>
+          <elementDefinition Id="e330d7ea-d644-463d-99ab-2b435a8c708d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="484bddba-9972-433f-a8c5-223ad9375eeb">
+          <propertyInstance Id="378d6478-b5d0-4d7e-8fdc-9656e57735a6" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="a92775e1-cf8c-47c1-8fd9-66ad7452d837" />
+          </propertyInstance>
+          <elementDefinition Id="3e6b8522-7d72-4e0f-be6b-fc4f45920f0c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="01c92aa8-bc4f-4c9b-ad57-3e7e1b7da428">
+          <propertyInstance Id="c7ab1499-b2ac-421b-9d87-ddaa6d5d2992" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="5569c7dc-9674-499e-a705-6d924b6ea32b" />
+          </propertyInstance>
+          <elementDefinition Id="464b2bf3-96ee-463c-a0a2-d64315563aae" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="da48233e-1ae7-48fe-8592-e0ae6a9fcc45">
+          <propertyInstance Id="5ce61d63-645d-4a46-96b4-d70cd7017cde" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="065d2747-0b9f-4669-a03f-8dd5744a2380" />
+          </propertyInstance>
+          <elementDefinition Id="19d15d33-eda3-4167-b7b7-770783e57f7a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7f9dc479-230c-4a1e-ac73-523dd44da701">
+          <propertyInstance Id="8d9fc001-d5e2-4ede-9046-ec871ad1f36b" name="Parameters">
+            <elementDefinition Id="f713c049-5dca-41df-85ae-6ba0bd7ee0cb" />
+          </propertyInstance>
+          <elementDefinition Id="11411ad0-1fa7-4ddf-9af3-d745bd2ace2c" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="8b722be5-ba1d-48b5-8be8-3876eb5976aa">
+      <profileInstance Id="a93744c9-bea0-415f-b289-b5fbd2fee360" name="CSharpProfile">
+        <elementDefinition Id="80a81e9b-a0ba-4df6-9dd9-c9a6a2b1eb1d" />
+      </profileInstance>
+      <elementDefinition Id="6fe19cdc-cd72-45e8-adca-317f6b9933e6" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="37cb684a-c840-4c2d-aeec-1377a0dd87ba">
+      <profileInstance Id="9b39b974-80cc-417f-b70d-d5c2c644b40c" name="TextTemplateBindings">
+        <elementDefinition Id="aefb76b3-b1b7-4dae-a387-658d0cb34c3d" />
+      </profileInstance>
+      <elementDefinition Id="8b67ea0f-fa47-4ac5-b162-82f8efb5b440" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="0d3d6847-034d-4df0-9ddf-c45ad2b31a46" name="BrowsingProducts" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="70390ecd-1984-4543-b0bf-35b049869bed" />
+        <nodes>
+          <opaqueAction Id="c7f32fee-ed6c-4621-ace4-fb63f48531fc" name="Выбрать пункт меню &quot;Просмотр товаров&quot;" isLeaf="false">
+            <elementDefinition Id="07b9d62c-e948-48bf-9443-504d38dfaf67" />
+            <flowNodeTargets>
+              <controlFlow Id="ce6af12c-e9bd-48ca-8d23-0a7705fd21eb" isLeaf="false">
+                <decisionNodeMoniker Id="35c4f06e-2f8e-41b6-bcf4-56b934f3f534" LastKnownName="Decision1" />
+                <elementDefinition Id="dec4fd03-1d4e-4829-aadd-870b826b40c5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <initialNode Id="35554595-9c6b-4611-b4df-4c0fb53c2742" name="Initial1" isLeaf="false">
+            <elementDefinition Id="cff5a772-8e88-449a-a5ae-e6a196732642" />
+            <flowNodeTargets>
+              <controlFlow Id="779a6d3e-aa77-4fcb-b3da-bf376c6f095d" isLeaf="false">
+                <opaqueActionMoniker Id="c7f32fee-ed6c-4621-ace4-fb63f48531fc" LastKnownName="Выбрать пункт меню &quot;Просмотр товаров&quot;" />
+                <elementDefinition Id="019cb8b7-6c64-4535-9c33-c8ee53253f4c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <decisionNode Id="35c4f06e-2f8e-41b6-bcf4-56b934f3f534" name="Decision1" isLeaf="false">
+            <elementDefinition Id="fadfc6e6-ef56-4201-bfed-7a03b81a8e3b" />
+            <flowNodeTargets>
+              <controlFlow Id="9cea1841-b168-4441-bf9c-d3186c3491a1" guard="Нет" isLeaf="false">
+                <decisionNodeMoniker Id="3f32c910-fee2-44f4-8354-b60580a9495f" LastKnownName="Decision2" />
+                <elementDefinition Id="5ab887de-9d81-4fb7-bbc1-7fd61195cf8c" />
+              </controlFlow>
+              <controlFlow Id="d47aef9c-fd6c-44c7-b30b-f308e85c593f" guard="Да" isLeaf="false">
+                <opaqueActionMoniker Id="9732ea91-c4ef-433d-9122-7bbb2a520219" LastKnownName="Выбрать необходимый товар для просмотра" />
+                <elementDefinition Id="08066bda-297b-4033-b004-7df1df3e73bd" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="9732ea91-c4ef-433d-9122-7bbb2a520219" name="Выбрать необходимый товар для просмотра" isLeaf="false">
+            <elementDefinition Id="4bbd1f8d-752c-453c-a06c-d0851b7b1d1c" />
+            <flowNodeTargets>
+              <controlFlow Id="b02d9715-6598-4257-8845-4a2531d832bd" isLeaf="false">
+                <opaqueActionMoniker Id="6ab9c861-d691-41cc-a4ca-51bd2ce25d6b" LastKnownName="Добавить в корзину" />
+                <elementDefinition Id="df97d4e8-8893-4072-beba-f9e69c8e427e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="3f32c910-fee2-44f4-8354-b60580a9495f" name="Decision2" isLeaf="false">
+            <elementDefinition Id="94a7c2ce-79f4-47b8-83d5-9820a69b34de" />
+            <flowNodeTargets>
+              <controlFlow Id="43a68ffb-2ff5-49f4-ac34-44d894fb2cc0" guard="С помощью категорий" isLeaf="false">
+                <opaqueActionMoniker Id="2e1531bc-ba2a-4cfc-b77a-b8eae751fede" LastKnownName="Выбрать категорию товара" />
+                <elementDefinition Id="bbd5ef87-62f4-493e-aa71-c6b9e9b713c3" />
+              </controlFlow>
+              <controlFlow Id="276c3413-07d9-4aec-8664-e4202b7e9a1d" guard="С помощью строки поиска" isLeaf="false">
+                <opaqueActionMoniker Id="25712756-8270-4376-93f8-88bed3ebead5" LastKnownName="Поиск товара через строку поиска" />
+                <elementDefinition Id="8c97a25d-d41f-44a3-bb14-055ef528ef12" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="2e1531bc-ba2a-4cfc-b77a-b8eae751fede" name="Выбрать категорию товара" isLeaf="false">
+            <elementDefinition Id="cbce0a71-ac6e-4dc9-87ce-911a7bb58795" />
+            <flowNodeTargets>
+              <controlFlow Id="365e98f2-5932-496d-a1cc-650ff2adebc4" isLeaf="false">
+                <mergeNodeMoniker Id="2a62d2f3-3618-44a4-9d56-3499089e7123" LastKnownName="Merge1" />
+                <elementDefinition Id="ac72a051-27aa-4b49-be58-8cd57ef8afdd" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="25712756-8270-4376-93f8-88bed3ebead5" name="Поиск товара через строку поиска" isLeaf="false">
+            <elementDefinition Id="ec52615c-473f-47b9-9c16-b50e54ebbc95" />
+            <flowNodeTargets>
+              <controlFlow Id="9d780d65-5a4b-4cbb-8172-8878f1dfb234" isLeaf="false">
+                <mergeNodeMoniker Id="2a62d2f3-3618-44a4-9d56-3499089e7123" LastKnownName="Merge1" />
+                <elementDefinition Id="b498dada-58e9-4f1f-a021-dc0ae02037ad" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="2a62d2f3-3618-44a4-9d56-3499089e7123" name="Merge1" isLeaf="false">
+            <elementDefinition Id="527cb2ec-2a65-4088-a336-e6331d60190e" />
+            <flowNodeTargets>
+              <controlFlow Id="48564182-e5bf-4e52-87be-f9fd971eadd2" isLeaf="false">
+                <opaqueActionMoniker Id="9732ea91-c4ef-433d-9122-7bbb2a520219" LastKnownName="Выбрать необходимый товар для просмотра" />
+                <elementDefinition Id="222a30a2-fdae-43a3-a480-23a9e2808040" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="6ab9c861-d691-41cc-a4ca-51bd2ce25d6b" name="Добавить в корзину" isLeaf="false">
+            <elementDefinition Id="2f841877-9b21-49f3-9b27-c0abdeff3744" />
+            <flowNodeTargets>
+              <controlFlow Id="89842440-c162-4e7c-9a9f-ad7f3ce5ae88" isLeaf="false">
+                <opaqueActionMoniker Id="e5411efd-7459-461f-a2fa-e05b38489aca" LastKnownName="Оформить заказ" />
+                <elementDefinition Id="725e9746-829d-41b8-b630-bd81f7137553" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e5411efd-7459-461f-a2fa-e05b38489aca" name="Оформить заказ" isLeaf="false">
+            <elementDefinition Id="a25ae88a-dc93-4a3b-9a33-df9726cd943d" />
+            <flowNodeTargets>
+              <controlFlow Id="5ba46e7c-86ad-4854-b6d1-241f0b1443d7" isLeaf="false">
+                <decisionNodeMoniker Id="018fe6e9-e998-430c-98bf-9ae6e879ad7a" LastKnownName="Decision4" />
+                <elementDefinition Id="ed95fac5-ee29-4b8f-ac40-ceabf8d835ba" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="76455b07-25ae-4031-9910-51d5f49a729c" name="Decision3" isLeaf="false">
+            <elementDefinition Id="fb9fcb84-6d99-4a85-9152-3b33d6cb6167" />
+            <flowNodeTargets>
+              <controlFlow Id="31ac48b8-999b-48da-9758-529f4383786a" guard="Да" isLeaf="false">
+                <opaqueActionMoniker Id="57bdb175-24e5-43b8-b796-3c86527cd95b" LastKnownName="Ввести промокод" />
+                <elementDefinition Id="478f0f15-7e5e-4a35-9f76-71459ba84924" />
+              </controlFlow>
+              <controlFlow Id="7407b044-15b2-436e-abcf-57ac49c4e922" guard="Нет" isLeaf="false">
+                <joinNodeMoniker Id="a4a3eda8-568e-49ea-9615-f576adcb1c5d" LastKnownName="Join1" />
+                <elementDefinition Id="62e853b5-6ed5-4324-9fed-3ab7bf73f2cf" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="57bdb175-24e5-43b8-b796-3c86527cd95b" name="Ввести промокод" isLeaf="false">
+            <elementDefinition Id="cbebde30-b7c1-4381-aef6-039970e589e9" />
+            <flowNodeTargets>
+              <controlFlow Id="25a75aba-49d0-4b9a-a50d-4866029bf6b2" isLeaf="false">
+                <joinNodeMoniker Id="a4a3eda8-568e-49ea-9615-f576adcb1c5d" LastKnownName="Join1" />
+                <elementDefinition Id="1d4ed269-6f35-404f-b130-497bee6a2ade" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="bf1f2157-52ae-4db1-b753-6b5086469a50" name="Получить подтверждение заказа" isLeaf="false">
+            <elementDefinition Id="98057046-4aa7-415c-a358-863fd6d90f58" />
+            <flowNodeTargets>
+              <controlFlow Id="f11cc232-5b59-42a8-883e-b0102b788426" isLeaf="false">
+                <activityFinalNodeMoniker Id="085e9c5e-f558-4f01-a3a2-d1e3e24d0dd9" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="088017c7-97ee-4116-9037-fcde884016a5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="085e9c5e-f558-4f01-a3a2-d1e3e24d0dd9" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="db6f833f-207e-4c20-971e-d1d8746db0b6" />
+          </activityFinalNode>
+          <joinNode Id="a4a3eda8-568e-49ea-9615-f576adcb1c5d" name="Join1" isLeaf="false">
+            <elementDefinition Id="a4039d77-2aa2-431e-a4bb-34da62c656b3" />
+            <flowNodeTargets>
+              <controlFlow Id="bf87186f-8ff9-46a1-a372-0ee27bb9b63d" isLeaf="false">
+                <decisionNodeMoniker Id="19b57732-7ac2-456f-a170-a5a6bfce8925" LastKnownName="Decision5" />
+                <elementDefinition Id="8e7a2744-1710-474d-8a72-0d3f9e4b248a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <decisionNode Id="018fe6e9-e998-430c-98bf-9ae6e879ad7a" name="Decision4" isLeaf="false">
+            <elementDefinition Id="16fb5116-7643-4dbc-b2e8-0a159ea1b38e" />
+            <flowNodeTargets>
+              <controlFlow Id="1839a362-0909-4bca-93bb-96fbcf43c003" guard="Нет" isLeaf="false">
+                <opaqueActionMoniker Id="89b50978-d11e-40ad-89e0-3f66ec038d82" LastKnownName="Регистрация" />
+                <elementDefinition Id="368ba36b-8dd8-42a0-91e0-b214f57c785b" />
+              </controlFlow>
+              <controlFlow Id="6fe62550-9712-4646-b003-23027c0142ab" guard="Да" isLeaf="false">
+                <opaqueActionMoniker Id="11269016-1d23-455e-b7f6-bc43ede1f13c" LastKnownName="Авторизация" />
+                <elementDefinition Id="e82fc199-a3e7-4902-8bc1-39811c92c654" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="89b50978-d11e-40ad-89e0-3f66ec038d82" name="Регистрация" isLeaf="false">
+            <elementDefinition Id="7b0c2df4-eed0-4584-8d68-486f1592bd73" />
+            <flowNodeTargets>
+              <controlFlow Id="95fb5263-3151-4de1-aa47-f2e232a6f8ff" isLeaf="false">
+                <opaqueActionMoniker Id="11269016-1d23-455e-b7f6-bc43ede1f13c" LastKnownName="Авторизация" />
+                <elementDefinition Id="daf2b7dc-7363-4a32-abe6-c88741aa33b7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="11269016-1d23-455e-b7f6-bc43ede1f13c" name="Авторизация" isLeaf="false">
+            <elementDefinition Id="75c27cb7-2f22-4602-8754-6961f1d5e88e" />
+            <flowNodeTargets>
+              <controlFlow Id="8105db99-a5b3-473d-8b47-a0452ab024ef" isLeaf="false">
+                <decisionNodeMoniker Id="76455b07-25ae-4031-9910-51d5f49a729c" LastKnownName="Decision3" />
+                <elementDefinition Id="c754e860-b154-416f-b2bc-9ae66256ec74" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="19b57732-7ac2-456f-a170-a5a6bfce8925" name="Decision5" isLeaf="false">
+            <elementDefinition Id="5b90aaff-2800-41eb-81ab-b59c18e629d9" />
+            <flowNodeTargets>
+              <controlFlow Id="4432a050-8907-4f8e-99e6-2b1537b2218d" guard="Json" isLeaf="false">
+                <opaqueActionMoniker Id="e4b7660f-bdcc-4a3d-9e7e-927942af2752" LastKnownName="Запись заказа в Json-файл" />
+                <elementDefinition Id="21c7a57b-50f5-4e20-8fcd-76d0e947dfcc" />
+              </controlFlow>
+              <controlFlow Id="b990481a-1306-448c-b265-8f7da37fd601" guard="XML" isLeaf="false">
+                <opaqueActionMoniker Id="64c18fb1-e699-4da1-9766-e590f16bd95d" LastKnownName="Запись заказа в XML-файл" />
+                <elementDefinition Id="6fa888ad-39ed-4331-b83b-634d3e5eb6d4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="e4b7660f-bdcc-4a3d-9e7e-927942af2752" name="Запись заказа в Json-файл" isLeaf="false">
+            <elementDefinition Id="f1462158-74cc-424d-bd44-bf5d12da12c3" />
+            <flowNodeTargets>
+              <controlFlow Id="08648a1f-49f5-42a0-9dd8-5c4b89a759e4" isLeaf="false">
+                <mergeNodeMoniker Id="4a3bbf19-24fe-43d9-a64c-4b4f41fb694a" LastKnownName="Merge2" />
+                <elementDefinition Id="2677a748-39fb-4074-a7ff-25ff458f4fb4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="64c18fb1-e699-4da1-9766-e590f16bd95d" name="Запись заказа в XML-файл" isLeaf="false">
+            <elementDefinition Id="9bffe321-7c3c-4ed9-8e1d-17a41264c70e" />
+            <flowNodeTargets>
+              <controlFlow Id="4a2e4a08-a084-464f-9c94-6aabfbe9b0b0" isLeaf="false">
+                <mergeNodeMoniker Id="4a3bbf19-24fe-43d9-a64c-4b4f41fb694a" LastKnownName="Merge2" />
+                <elementDefinition Id="542a5e68-00d0-4e3f-882d-fb5e5691e046" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="4a3bbf19-24fe-43d9-a64c-4b4f41fb694a" name="Merge2" isLeaf="false">
+            <elementDefinition Id="4be4ee1d-1eac-4536-91e2-8eeaec172544" />
+            <flowNodeTargets>
+              <controlFlow Id="b97ec626-11d0-4a02-9ab1-9a57720fa0f4" isLeaf="false">
+                <opaqueActionMoniker Id="bf1f2157-52ae-4db1-b753-6b5086469a50" LastKnownName="Получить подтверждение заказа" />
+                <elementDefinition Id="a65ead96-ba10-4d5d-87f1-34c342586d44" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="e3986cf2-ed8d-4cb1-9c5b-d27bb351a707" name="AudioVideoEquipment.Models">
+    <elementDefinition Id="dffe5a66-be2f-44a3-a662-4275cf37af6a" />
+    <profileInstances>
+      <packageHasProfileInstances Id="9f61a024-7b82-49da-89d2-65a912c4dc1d">
+        <profileInstance Id="fe54cc42-c56c-4bc2-ba74-c2ff643b49a2" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="16afb4ef-2722-40cc-870f-2235d1c8686e">
+        <profileInstance Id="d8fa3512-a1b7-4f35-9338-a1854d7daf6a" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

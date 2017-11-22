@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2017-06-02T10:30:10" Importance="High" Text="Запущено создание кода или преобразование текста." />
+  <Message Timestamp="2017-06-02T10:30:10" Importance="Diagnostic" Text="Имя = ClassTemplate" />
+  <Message Timestamp="2017-06-02T10:30:10" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2017-06-02T10:30:10" Importance="Diagnostic" Text="ProjectPath = ..\HouseholdAppliances\HouseholdAppliances.csproj" />
+  <Message Timestamp="2017-06-02T10:30:10" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-06-02T10:30:10" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-06-02T10:30:10" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-06-02T10:30:10" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-06-02T10:30:10" Importance="Medium" Text="Привязка шаблона текста, принадлежащая AudioVideoEquipment.Models: &quot;ClassTemplate&quot; применит ClassTemplate.t4 к: &quot;AudioVideoEquipment.Models::Order&quot; -  (Class) " />
+  <Message Timestamp="2017-06-02T10:30:36" Importance="Medium" Text="&quot;AudioVideoEquipment.Models::Order&quot; -  (Class) : успешно (файл создан) - F:\Новая папка (2)\Практика\HouseholdAppliances\HouseholdAppliances\GeneratedCode\Order.cs" />
+  <Message Timestamp="2017-06-02T10:30:37" Importance="Diagnostic" Text="Имя = StructTemplate" />
+  <Message Timestamp="2017-06-02T10:30:37" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2017-06-02T10:30:37" Importance="Diagnostic" Text="ProjectPath = ..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj" />
+  <Message Timestamp="2017-06-02T10:30:37" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-06-02T10:30:37" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-06-02T10:30:37" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-06-02T10:30:37" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-06-02T10:30:37" Importance="Medium" Text="Привязка шаблона текста, принадлежащая AudioVideoEquipment.Models: &quot;StructTemplate&quot; применит StructTemplate.t4 к: &quot;AudioVideoEquipment.Models::Order&quot; -  (Class) " />
+  <Message Timestamp="2017-06-02T10:30:39" Importance="Diagnostic" Text="&quot;AudioVideoEquipment.Models::Order&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2017-06-02T10:30:39" Importance="High" Text="Создание кода завершено. Ошибок: 0. Предупреждений: 0." />
+</Log>

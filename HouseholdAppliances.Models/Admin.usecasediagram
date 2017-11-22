@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="9df06e67-4038-4c4c-a90d-b33c70572f8f" name="Admin" linkedPackageId="30f17fd7-5011-47bc-95d2-82f1431f9da9" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="b08bfbd5-8c3e-4e60-8b83-1749b48f4af1" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="f191cff7-bc40-4758-a23a-284b2f4fe748" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2ccb1e1e-ceb2-449f-b156-70888d832d2d">
+          <propertyInstance Id="55d5108a-0b84-49f7-9950-5e4e259c0642" name="BaseName">
+            <elementDefinition Id="e4b5fc41-6796-4c95-bead-4207d04b6e04" />
+          </propertyInstance>
+          <elementDefinition Id="b7464389-d879-45b7-b0a2-46f2a22fa333" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="427712e4-9485-481b-a507-9ce2422e7544">
+          <propertyInstance Id="f1253b84-a166-4fb0-b8d5-abc2214284de" name="ClrAttributes">
+            <elementDefinition Id="e27ea86f-f338-4b3d-afaf-1ea96ae9be64" />
+          </propertyInstance>
+          <elementDefinition Id="542a002d-2597-4600-816b-cbd73103eba2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0dce28a8-acd3-4ed4-ad12-6354bcdba738">
+          <propertyInstance Id="0731b705-c932-48e5-9829-99aa112c8b0a" name="Usings">
+            <elementDefinition Id="93578207-5769-4565-afe6-1d6de85b9973" />
+          </propertyInstance>
+          <elementDefinition Id="1f2da189-8b4c-4d11-809c-16ae51e43956" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="56c3d97e-f282-4837-aef6-3cc59ab0be67" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="61604d75-d4e8-4621-8fdc-a2daa1bdf410" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6551b21e-3455-48fd-903c-3f62ae0721da">
+          <propertyInstance Id="1ad0e8ef-d733-4697-951c-cbd08b4ab36e" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="fcf3bc60-4ab4-431e-9b3c-f24980a5d01a" />
+          </propertyInstance>
+          <elementDefinition Id="ceef827f-2763-45aa-9f00-b9f6c3239b2f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2ff0f5ba-67ea-4955-adf8-8cfd88cef405">
+          <propertyInstance Id="193a42f2-1dcb-4992-a9d4-6dc16bdd86bb" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="eebd5fcb-f9fb-46a6-8ef9-3309e3f4a408" />
+          </propertyInstance>
+          <elementDefinition Id="725af1e1-bf97-4a18-bb3e-0d7b6f7458d5" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="476b5cb3-4808-4456-893c-bb455e3f2698">
+          <propertyInstance Id="f6799d91-5ec0-463f-803d-5df15dcc58e3" name="ProjectPath" value="ClassTemplate=..\HouseholdAppliances\HouseholdAppliances.csproj|EnumTemplate=..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj|InterfaceTemplate=..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj|StructTemplate=..\AudioVideoEquipment.ModelsLib\AudioVideoEquipment.ModelsLib.csproj">
+            <elementDefinition Id="ce5589f5-6b6f-4db8-ae29-84c5af92a33d" />
+          </propertyInstance>
+          <elementDefinition Id="e330d7ea-d644-463d-99ab-2b435a8c708d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1e6db314-4ecc-4ca5-8d29-0f317dc7527c">
+          <propertyInstance Id="24560dcc-60e4-4982-a5a5-4165f4c4a124" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="a92775e1-cf8c-47c1-8fd9-66ad7452d837" />
+          </propertyInstance>
+          <elementDefinition Id="3e6b8522-7d72-4e0f-be6b-fc4f45920f0c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0c0a0da7-31e7-47e1-8c37-f53cbef0939a">
+          <propertyInstance Id="0f6b5bbd-b168-4fb7-9eb1-5d0c937c0d14" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="5569c7dc-9674-499e-a705-6d924b6ea32b" />
+          </propertyInstance>
+          <elementDefinition Id="464b2bf3-96ee-463c-a0a2-d64315563aae" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d83bd426-0e11-48a9-9d53-8e04fafa87c6">
+          <propertyInstance Id="3abfa239-3736-4940-a4fb-c76a9dded736" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="065d2747-0b9f-4669-a03f-8dd5744a2380" />
+          </propertyInstance>
+          <elementDefinition Id="19d15d33-eda3-4167-b7b7-770783e57f7a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c173cd6d-877b-48fa-a2e9-ac2ac3eac009">
+          <propertyInstance Id="5bb36803-0580-4ee1-93b3-4dbe254a1823" name="Parameters">
+            <elementDefinition Id="f713c049-5dca-41df-85ae-6ba0bd7ee0cb" />
+          </propertyInstance>
+          <elementDefinition Id="11411ad0-1fa7-4ddf-9af3-d745bd2ace2c" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="042e9fa4-1a92-454b-83e6-edd43c531f18" name="Администратор" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="de259403-cc20-410c-8dba-90a933ce0448" />
+        <generalsInternal>
+          <generalization Id="dc59ec06-2fa3-48fb-906a-010a33ba990a" isSubstitutable="false">
+            <actorMoniker Id="3d908e61-7d8e-4dbc-8f8d-4e60175e7613" LastKnownName="Посетитель" />
+            <elementDefinition Id="a6b3fddf-0510-4c5a-9401-596e858e8ba5" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="2e71a668-cdab-49c0-97eb-2ec24874c958" isDerived="false" sourceEndRoleName="Администратор" targetEndRoleName="Авторизироваться" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="54289a6e-0ad4-4bbf-a6db-06f5c078f30b" LastKnownName="Авторизироваться" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6404baef-a3a3-4c30-a6b4-cc64dfba8078" name="Администратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e46b8736-b258-4247-a932-366aa7073469" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6ab2edd4-61be-4dd1-a0a5-e4173ff2e1a3" name="Авторизироваться" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c7cade78-b88c-4d26-a103-dd92b1a4ca44" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6fb443d8-ed85-4f7a-9760-3caf35757ca6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="3d908e61-7d8e-4dbc-8f8d-4e60175e7613" name="Посетитель" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a91d3e5f-98ee-421b-9784-ae72280920ab" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="4fbb2fae-4079-4805-9eff-f7694217c71e" name="Админ-панель" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f331e567-c46a-458d-b4bb-cc9fdbdf1cf2" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="54289a6e-0ad4-4bbf-a6db-06f5c078f30b" name="Авторизироваться" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="86a2aa84-1854-4dde-a213-301fc07aeca4" />
+        <additions>
+          <include Id="67a375cb-3cba-461a-a61f-54ed2211f6c6">
+            <useCaseMoniker Id="4a656790-56df-4a0f-9888-45e869969a04" LastKnownName="Управление списком категорий" />
+            <elementDefinition Id="8bbe653b-3583-41a7-bcf6-4dd3f63ea75f" />
+          </include>
+          <include Id="c1ddb04b-0298-43cb-8bad-b6858fb65a02">
+            <useCaseMoniker Id="68a2fe9e-0a87-413a-984d-8ad6177beb62" LastKnownName="Управление списком товаров" />
+            <elementDefinition Id="cc7dd86c-9cf4-4aa5-b1e1-755599b073d3" />
+          </include>
+          <include Id="0f433947-3573-4141-86ff-4733c6d79fa8">
+            <useCaseMoniker Id="c18968a4-4002-4251-b433-c508001efd18" LastKnownName="Управление списком заказов" />
+            <elementDefinition Id="5a031765-e566-4946-bdc8-7f12c8837768" />
+          </include>
+          <include Id="66c9b8d0-d4b3-46b1-8c12-1278b5ab148a">
+            <useCaseMoniker Id="74dd032f-7770-4a10-9695-cd05e7b4a393" LastKnownName="Управление списком пользователей" />
+            <elementDefinition Id="856a321d-ddcd-4d9e-8390-89698afbbf92" />
+          </include>
+          <include Id="b2e5a802-802d-49ec-845e-f5000ef31a2d">
+            <useCaseMoniker Id="e51f2c21-e81d-40ad-819d-abc7937a89f1" LastKnownName="Управление промо-акциями" />
+            <elementDefinition Id="46bca828-45f4-4e69-8f20-5679154cec54" />
+          </include>
+          <include Id="15fca62d-848f-453f-a8e5-f88be6c69f21">
+            <useCaseMoniker Id="c6f4eccc-da57-40dc-96e6-661fb8706c12" LastKnownName="Сохранить БД в файл" />
+            <elementDefinition Id="e146d73b-4514-43be-b83e-5ab3b9cef7cb" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="74dd032f-7770-4a10-9695-cd05e7b4a393" name="Управление списком пользователей" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="18613322-d4c2-4b8e-ac6f-a567559935d7" />
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="4a656790-56df-4a0f-9888-45e869969a04" name="Управление списком категорий" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="145003d4-7f41-4b7e-839d-8538a1988922" />
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="68a2fe9e-0a87-413a-984d-8ad6177beb62" name="Управление списком товаров" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ecb96d85-42b0-49e7-9c02-ecb57fe6c98b" />
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c18968a4-4002-4251-b433-c508001efd18" name="Управление списком заказов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d70cf1a8-d00d-4800-9543-44aadf2ffdc1" />
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e51f2c21-e81d-40ad-819d-abc7937a89f1" name="Управление промо-акциями" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4d1e9b4e-4c3c-4af6-9d70-fac504ac4ecd" />
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9727f63b-0ee1-4800-b897-90cb304101d3" name="Изменить статус заказа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4a186146-81e7-4a31-9c1e-a51e9732dee3" />
+        <extendedCases>
+          <extend Id="7196709e-c983-4226-b13c-6691fb0058ca">
+            <useCaseMoniker Id="c18968a4-4002-4251-b433-c508001efd18" LastKnownName="Управление списком заказов" />
+            <elementDefinition Id="56ee33dd-2a22-4583-ba58-e0f03b6321c7" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b4795750-d050-491d-aaf0-9624f7df616f" name="Добавить товар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="227739e1-e494-4887-901e-5ef656b2df8b" />
+        <extendedCases>
+          <extend Id="f1bbad7d-a00a-44f8-ba08-97fbcfab2abe">
+            <useCaseMoniker Id="68a2fe9e-0a87-413a-984d-8ad6177beb62" LastKnownName="Управление списком товаров" />
+            <elementDefinition Id="2fcd7e45-8173-442a-9e91-d18a0add302a" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a965901b-2b82-4daa-a7ac-a679a892ba9e" name="Редактировать товар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="71ae279b-1dc1-4768-b670-0f32f4b2b998" />
+        <extendedCases>
+          <extend Id="afc1628a-2180-4157-bcd3-1e4ea5dbda7c">
+            <useCaseMoniker Id="68a2fe9e-0a87-413a-984d-8ad6177beb62" LastKnownName="Управление списком товаров" />
+            <elementDefinition Id="5eca79e0-b12c-41ea-8850-96f11d72fc24" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="517ca8a0-61f9-48f2-b233-e0a77a77c804" name="Удалить товар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7dd9d04b-3f6d-4866-a739-0a5909203af0" />
+        <extendedCases>
+          <extend Id="2b787180-172b-45dd-b04d-ff53a0faae3c">
+            <useCaseMoniker Id="68a2fe9e-0a87-413a-984d-8ad6177beb62" LastKnownName="Управление списком товаров" />
+            <elementDefinition Id="2879b775-90a3-4bf6-8a1a-0608d99790c3" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="705fe7fa-d95f-4a70-86da-a708f41e943a" name="Добавить категорию" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f326f2e2-6afc-40cf-a10c-c25461421a0c" />
+        <extendedCases>
+          <extend Id="403a96ea-3abe-4a69-8ab4-5b8affc910e6">
+            <useCaseMoniker Id="4a656790-56df-4a0f-9888-45e869969a04" LastKnownName="Управление списком категорий" />
+            <elementDefinition Id="ecede220-b1c1-46ad-8174-bd4df0b48e12" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3f927ad0-4e2b-43e4-b57a-290712d519f1" name="Редактировать категорию" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="13e1ff66-bf56-4685-9c62-578dafd5ec9f" />
+        <extendedCases>
+          <extend Id="202ce40d-660d-47e0-b35c-8e425b6152d0">
+            <useCaseMoniker Id="4a656790-56df-4a0f-9888-45e869969a04" LastKnownName="Управление списком категорий" />
+            <elementDefinition Id="d3ccad65-dd8c-4f3d-a5e9-27c65b28322e" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="77c7ba95-2e72-44bb-8856-ee7fc873f456" name="Удалить категорию" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a1405a07-bfb5-48a8-b02b-96792dbaf5ca" />
+        <extendedCases>
+          <extend Id="8f4aad6c-4504-4255-a192-bfd9d5b159b6">
+            <useCaseMoniker Id="4a656790-56df-4a0f-9888-45e869969a04" LastKnownName="Управление списком категорий" />
+            <elementDefinition Id="f32a14ad-6f68-4527-8815-c75c8fc5980e" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="01ae8498-df8f-4a31-8aad-ba486e4dcea5" name="Заблокировать пользователя" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="748e0a5c-710d-4c05-85c6-1cf26c4dc1a8" />
+        <extendedCases>
+          <extend Id="f93df955-da33-4259-8963-8475a387c51f">
+            <useCaseMoniker Id="74dd032f-7770-4a10-9695-cd05e7b4a393" LastKnownName="Управление списком пользователей" />
+            <elementDefinition Id="02c63a3c-52b5-4a9f-a069-c0eb4b86617c" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="580e3af3-e8fb-4054-a719-4c32d868f416" name="Разблокировать пользователя" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5849a974-ffc6-473e-becc-aa89c7b91a17" />
+        <extendedCases>
+          <extend Id="e9398be6-15da-455b-907e-6a11d7606c8c">
+            <useCaseMoniker Id="74dd032f-7770-4a10-9695-cd05e7b4a393" LastKnownName="Управление списком пользователей" />
+            <elementDefinition Id="137349ff-6d47-4159-a342-fc6722409666" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="6b3c2658-4742-4331-962d-ee9c7780830c" name="Изменение промо" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="de5e667b-1de4-43eb-84b1-c4e92503e343" />
+        <extendedCases>
+          <extend Id="0bc6cbb4-1c12-4c5e-afaf-069a48137255">
+            <useCaseMoniker Id="e51f2c21-e81d-40ad-819d-abc7937a89f1" LastKnownName="Управление промо-акциями" />
+            <elementDefinition Id="4cb77815-055f-4f5f-8739-0779ff5866f7" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="167d231d-f3ea-4330-a012-6f981b57eea9" name="Удаление промо" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bc4954b3-1f9f-4f0c-b215-af4e74322e60" />
+        <extendedCases>
+          <extend Id="9270b844-438c-44b8-a3e1-e0ae41e3e4f9">
+            <useCaseMoniker Id="e51f2c21-e81d-40ad-819d-abc7937a89f1" LastKnownName="Управление промо-акциями" />
+            <elementDefinition Id="f910c233-796e-465f-8965-eca4aaffbf8a" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="0615e607-15f0-455d-ade1-4b12b3ad50ff" name="Добавление промо" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cad2ecd5-56e6-46df-bc4d-d6b6fc1777a5" />
+        <extendedCases>
+          <extend Id="2beb23d0-33b8-4619-b2fe-5e21527ff4b7">
+            <useCaseMoniker Id="e51f2c21-e81d-40ad-819d-abc7937a89f1" LastKnownName="Управление промо-акциями" />
+            <elementDefinition Id="ac6784a0-06a7-45ee-b490-b4c1959cfacb" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c6f4eccc-da57-40dc-96e6-661fb8706c12" name="Сохранить БД в файл" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d7eefb6a-b72c-4fef-a2eb-6d76f886784e" />
+        <subjects>
+          <subsystemMoniker Id="4fbb2fae-4079-4805-9eff-f7694217c71e" LastKnownName="Админ-панель" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="30f17fd7-5011-47bc-95d2-82f1431f9da9" name="AudioVideoEquipment.Models">
+    <elementDefinition Id="dffe5a66-be2f-44a3-a662-4275cf37af6a" />
+    <profileInstances>
+      <packageHasProfileInstances Id="5e6b3f7c-0110-4e90-8809-a79ee41edec1">
+        <profileInstance Id="45bc5553-9734-42db-9cc5-f0926a4bc2ad" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="1eae4251-c9c0-40f4-b285-e2fe60e7a347">
+        <profileInstance Id="ebc43239-af1b-4060-a9ef-b70f4edd5f1a" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="73fcc5d0-3aff-48f3-807a-1c77e07db7ea">
+        <profileInstance Id="c38552c8-c36d-4fa6-b966-06633d8a0c0e" name="CSharpProfile">
+          <elementDefinition Id="80a81e9b-a0ba-4df6-9dd9-c9a6a2b1eb1d" />
+        </profileInstance>
+        <elementDefinition Id="6fe19cdc-cd72-45e8-adca-317f6b9933e6" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="1afc0a0c-099a-4f8b-9928-098e8ee01fb0">
+        <profileInstance Id="dff9e672-b1b9-439f-b5db-8383612a5d9d" name="TextTemplateBindings">
+          <elementDefinition Id="aefb76b3-b1b7-4dae-a387-658d0cb34c3d" />
+        </profileInstance>
+        <elementDefinition Id="8b67ea0f-fa47-4ac5-b162-82f8efb5b440" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

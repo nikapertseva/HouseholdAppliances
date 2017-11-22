@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="96f33482-5659-4920-83e2-fe3f8daafee9" name="UMLComponentDiagram1" linkedPackageId="09073edd-657a-4252-9ce0-789ebb83fc37" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="281edbee-3be9-49e9-a02f-90ef25a1efcb" name="HouseholdAppliances" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4c974c8f-9d9a-433e-b866-232331f07a6e" />
+        <ownedAttributesInternal>
+          <part Id="9780c988-21c4-4445-ae91-33238142db64" name="GoodsController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="82114ab5-5396-49bb-bcfc-b4c03a8a5dd1" />
+            <targetNamedElementsInternal>
+              <connector Id="ae70f981-a3b6-4c4e-9475-3dfd108bc9b2" isLeaf="false" isStatic="false">
+                <partMoniker Id="0978515c-d4ed-445d-a125-89f171dd020c" LastKnownName="CartController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="4dd22a9e-94b7-4906-9bf9-bfd6af597d69">
+                      <elementDefinition Id="1708d66b-0759-40ca-ab20-16bced437271" />
+                      <portWithPart>
+                        <requiredInterfaceMoniker Id="fd94ac5e-ea6c-4314-a40d-aa883918f2f0" LastKnownName="Port2" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="20a6a2f3-26de-4735-b525-2adeb3513ada">
+                      <elementDefinition Id="ffff3586-db3b-4a8a-824c-b085715394b1" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="b0a18f67-6c1b-43d8-a841-a26de73f11a9" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="a122702b-15aa-43dd-aa38-a7b0cbbb730a" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="96812720-e764-4d08-b232-df7b29aebd16" LastKnownName="Component4" />
+            </type_NamedElement>
+          </part>
+          <part Id="0978515c-d4ed-445d-a125-89f171dd020c" name="CartController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="185193d8-9b63-43cc-8193-7a1672a848ce" />
+            <targetNamedElementsInternal>
+              <connector Id="dd56e9dd-70cd-45fe-aa5f-40eaff2b2f39" isLeaf="false" isStatic="false">
+                <partMoniker Id="be566b47-7759-4844-b764-3655c3445ced" LastKnownName="OrderController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="1ea355bb-a400-4e56-9397-c3e2ee8b4526">
+                      <elementDefinition Id="4ceba286-cb8f-4d2e-890a-611a17d6dd11" />
+                      <portWithPart>
+                        <requiredInterfaceMoniker Id="b85e5475-7919-4f4c-a0fd-f7e2b0c142b5" LastKnownName="Port2" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="36c2affa-e22d-43c0-aa4d-799dd28d1dc8">
+                      <elementDefinition Id="c7ca9b7e-8133-4045-a5c7-588758ffc468" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="bf66697b-d2bd-4240-a2ad-b35207af4c65" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="e81e14d0-ed52-477f-8ba7-3afc6dba5935" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="88f6c7bb-ac07-4e46-9d24-bcc1e27ac1ee" LastKnownName="Component5" />
+            </type_NamedElement>
+          </part>
+          <part Id="be566b47-7759-4844-b764-3655c3445ced" name="OrderController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="6d236124-ed53-4018-8a86-ea10007b6dc1" />
+            <targetNamedElementsInternal>
+              <connector Id="87f62c82-0697-44c5-8ed6-de8d44d54aa2" isLeaf="false" isStatic="false">
+                <partMoniker Id="40b302b7-bf51-40e0-8c8a-2928cf10e451" LastKnownName="AuthController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="6a6bfef8-4309-4b8b-a5a6-190e72f4be5c">
+                      <elementDefinition Id="ab201f2a-02a3-4e80-b42b-d292a28ef4a0" />
+                      <portWithPart>
+                        <requiredInterfaceMoniker Id="51ca4daf-2280-45fd-907c-6de81f689986" LastKnownName="Port2" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="239adc6e-8aa3-4726-8245-d5a6f1b819b9">
+                      <elementDefinition Id="2807011b-e473-4301-a772-0afd701bc761" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="9d2b588d-4e95-4867-ad00-c6349d7f6568" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="ce4bae61-445c-4bae-8a64-c077eb2d9022" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="01e5df63-ca65-4d8f-b4f4-468712fc0b27" LastKnownName="Component6" />
+            </type_NamedElement>
+          </part>
+          <part Id="62c13d06-cf37-4999-9826-7dabc1a008e8" name="AdminController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="d155c14a-2ecb-45cd-b00a-f8baaf677a0f" />
+            <targetNamedElementsInternal>
+              <connector Id="164bc3a1-b700-40db-b9ab-932a7d376050" isLeaf="false" isStatic="false">
+                <partMoniker Id="40b302b7-bf51-40e0-8c8a-2928cf10e451" LastKnownName="AuthController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="f323fa28-9e4b-4ecb-aba6-b3ea03badd2c">
+                      <elementDefinition Id="4533b831-ac34-4d1c-89e1-72ae89f5c874" />
+                      <portWithPart>
+                        <requiredInterfaceMoniker Id="caa993cc-9c54-4b99-b25b-d73e53a9271b" LastKnownName="Port2" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="d033c137-7e71-47cf-a863-323fe9e38413">
+                      <elementDefinition Id="387ed88f-7f1a-4c95-b8e5-8c10f1199fa5" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="9d2b588d-4e95-4867-ad00-c6349d7f6568" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="cec055cb-c2ab-4c5c-9cee-7a64f98743f4" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="f741fa86-cd77-4faa-86e1-1cdf9dedd810" LastKnownName="Component7" />
+            </type_NamedElement>
+          </part>
+          <part Id="3fb5dc5c-f594-48db-957b-a3a7a0ce8c27" name="UserController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="b9d60d89-5dcf-48b2-838e-5365df96223f" />
+            <targetNamedElementsInternal>
+              <connector Id="05bb9913-9e2b-4b6c-a19d-00bbe2d84ff2" isLeaf="false" isStatic="false">
+                <partMoniker Id="40b302b7-bf51-40e0-8c8a-2928cf10e451" LastKnownName="AuthController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="3cb2d7bd-9aa6-4640-b5b3-f0fa52fa2fd7">
+                      <elementDefinition Id="74b74f75-78d2-4a77-a85c-dc36066cf4aa" />
+                      <portWithPart>
+                        <requiredInterfaceMoniker Id="a48d7678-d6bb-4cdd-8611-562e11ddf937" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="b2365999-8329-43d2-8948-9c7e9d59f429">
+                      <elementDefinition Id="fbfc617c-ae18-47bc-80b2-8e1b6d70db3d" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="9d2b588d-4e95-4867-ad00-c6349d7f6568" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="c7042134-d932-4900-bbaa-dbb0de2d4859" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="ccd3fffb-65b4-49ca-b8db-e07636f6d57b" LastKnownName="Component8" />
+            </type_NamedElement>
+          </part>
+          <part Id="40b302b7-bf51-40e0-8c8a-2928cf10e451" name="AuthController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="28315a1a-7639-43e0-b4c1-7c9dbbc2486c" />
+            <targetNamedElementsInternal>
+              <connector Id="c244a7a0-412a-4a5b-bab2-39318abc5e48" isLeaf="false" isStatic="false">
+                <requiredInterfaceMoniker Id="7d1dd750-e6c1-41fe-9b17-b01b3cbb850c" LastKnownName="Port6" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="697b0fb5-3c7f-43d6-8f3e-4aee3bdd1edf">
+                      <elementDefinition Id="1c8c51cb-d40e-460c-91a5-5240e9cc17ea" />
+                      <portWithPart>
+                        <requiredInterfaceMoniker Id="1b99a7be-45ab-4f27-bf57-f4e77e256029" LastKnownName="Port2" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="6fe4df2e-3539-4896-9d19-d6ae266a73c3">
+                      <elementDefinition Id="8329dc21-4707-42bd-a4b2-561047b9fd9e" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="3dd2c9f8-e249-4cb7-82ca-c4f42791a313" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="b6b431b9-7ed0-4cdc-9d71-a4626885340a" LastKnownName="Component9" />
+            </type_NamedElement>
+          </part>
+          <providedInterface Id="4d4e6bc3-7b37-4d0d-ab5c-1646c917e16c" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="258eb2d6-72bc-4872-bc38-434284140645" />
+            <targetNamedElementsInternal>
+              <connector Id="d12b1c8d-b4cc-45b5-868f-0081a8feeb53" isLeaf="false" isStatic="false">
+                <partMoniker Id="9780c988-21c4-4445-ae91-33238142db64" LastKnownName="GoodsController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="cb7146cd-1f67-4b40-8dd9-0288114831b4">
+                      <elementDefinition Id="d906214b-a6db-45b4-bb76-a3a3bd555223" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="d477e06e-e8b2-46a5-bb81-bdf3d82b78e4">
+                      <elementDefinition Id="d74102a7-7054-418a-9764-cffb1222bb95" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="fa01a780-3eeb-4b8b-8b02-99b2bad2d81a" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="28622d8c-1600-43dd-be8b-1409fef0b966" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="d5822dc8-8ad9-4810-b653-f9ebb6faeb4a" LastKnownName="Просмотр товаров" />
+            </type_NamedElement>
+          </providedInterface>
+          <providedInterface Id="9d7191fd-b0ee-4616-8f85-b6c7b25563f8" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="56e7da5f-b1ea-42f5-8780-242b3b34b717" />
+            <targetNamedElementsInternal>
+              <connector Id="32672b53-4516-462d-b480-86433d43442c" isLeaf="false" isStatic="false">
+                <partMoniker Id="0978515c-d4ed-445d-a125-89f171dd020c" LastKnownName="CartController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="4bba5d6f-7419-4f76-bad3-3328a09c378e">
+                      <elementDefinition Id="67f4c53c-9748-4a70-8ff2-24a3af469d4a" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="a2a3cb31-f935-4b2c-80cb-78c7b69c9b7c">
+                      <elementDefinition Id="6e464e55-9688-4e96-abec-540c32dbd4f1" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="b0a18f67-6c1b-43d8-a841-a26de73f11a9" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="c437915b-db2b-4c8e-b8c4-474d393b4c0e" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="f38ed959-be3f-42db-873c-b62395d605fc" LastKnownName="Корзина" />
+            </type_NamedElement>
+          </providedInterface>
+          <providedInterface Id="699a697f-ccf9-41ea-9727-1d46ff88c3f5" name="Port5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="ead9907d-ef9e-4dc9-af88-703bf508d7ba" />
+            <targetNamedElementsInternal>
+              <connector Id="51b66a6e-3edc-433d-a124-b614a2e5040c" isLeaf="false" isStatic="false">
+                <partMoniker Id="be566b47-7759-4844-b764-3655c3445ced" LastKnownName="OrderController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="55f48f40-7407-4bfa-81b3-c8e792360332">
+                      <elementDefinition Id="4c5c7cce-9a47-47d2-b29c-1735faf173c7" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="6413f5f1-dde7-40ea-a6bd-3dfe5ed397fa">
+                      <elementDefinition Id="adf135a6-1eb3-40c2-ae2f-2a568fd43dba" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="bf66697b-d2bd-4240-a2ad-b35207af4c65" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="f12ec4bb-7c41-43ab-97f8-b074374848bd" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="318b14d1-cfbc-4a6e-822a-7ef88aa800d0" LastKnownName="Оформление заказа" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="7d1dd750-e6c1-41fe-9b17-b01b3cbb850c" name="Port6" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="132ae777-3ae1-4cfe-bca7-ac1da320a7da" />
+            <type_NamedElement>
+              <interfaceMoniker Id="dc7b0315-7786-4ab7-b537-e1b50b506765" LastKnownName="Авторизация" />
+            </type_NamedElement>
+          </requiredInterface>
+          <providedInterface Id="02b2f208-ed9b-4cd7-9b8b-94800c11c599" name="Port7" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="f52be8c5-f8ef-4946-b0b1-26ed84725ae0" />
+            <targetNamedElementsInternal>
+              <connector Id="41a4b21c-cf2a-4b63-afa6-a1d248a6cde9" isLeaf="false" isStatic="false">
+                <partMoniker Id="62c13d06-cf37-4999-9826-7dabc1a008e8" LastKnownName="AdminController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="4c9a5161-8845-46a8-ad80-192effab5414">
+                      <elementDefinition Id="45d63a29-95c5-4e74-b336-2b332eb3f3c0" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="0ea10d64-c709-4750-a34c-cdc0ba7d6437">
+                      <elementDefinition Id="9aea8d38-3b5b-4083-af02-127928ac7f9a" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="5c4ab971-c78c-4fe9-b2ea-be2d4fe8563b" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="28a46422-7fd7-4d09-aff0-29236d178eb3" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="d9526c2c-8f98-4424-82c4-e0c8557f0429" LastKnownName="Админ-панель" />
+            </type_NamedElement>
+          </providedInterface>
+          <providedInterface Id="1000bbed-815e-4d40-983e-6cdf7d9427a5" name="Port8" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="13da7109-f570-4163-a6a9-353263891cb5" />
+            <targetNamedElementsInternal>
+              <connector Id="da560092-53c3-454b-aaac-ba79263a16f7" isLeaf="false" isStatic="false">
+                <partMoniker Id="3fb5dc5c-f594-48db-957b-a3a7a0ce8c27" LastKnownName="UserController" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="171148ee-7579-429a-9b32-703086b6c275">
+                      <elementDefinition Id="d70e7679-a7b3-4d75-8a1d-f3d7fcd8b0e2" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="de6942af-e582-4f53-8fe2-90457c54e199">
+                      <elementDefinition Id="833760db-8ed5-4d37-98a3-d1d8d75c956f" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="ae60c194-e346-4a68-aac0-1d911d76e519" LastKnownName="Port2" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="51088f62-cb94-4e19-b1cf-e6b29cd07edb" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="b150c263-5488-43ea-82ec-7f14832fa6d8" LastKnownName="Личный кабинет пользователя" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="96812720-e764-4d08-b232-df7b29aebd16" name="Component4" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5ba16a88-487d-4545-91a8-43fb9a697126" />
+        <ownedAttributesInternal>
+          <providedInterface Id="fa01a780-3eeb-4b8b-8b02-99b2bad2d81a" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="663a9e87-d70a-44e9-9748-b20b5ad2d229" />
+            <type_NamedElement>
+              <interfaceMoniker Id="86f6472e-17ef-42a3-bb0a-ef9b3ec37ea6" LastKnownName="Просмотр товаров" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="fd94ac5e-ea6c-4314-a40d-aa883918f2f0" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="fe08fdca-1ba0-4f42-bf87-5acea18437b7" />
+            <type_NamedElement>
+              <interfaceMoniker Id="a274029b-85b5-492b-ad3a-a287ac5d5251" LastKnownName="Корзина" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="88f6c7bb-ac07-4e46-9d24-bcc1e27ac1ee" name="Component5" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="00b8933d-ec7c-4d49-8255-e58041d4f897" />
+        <ownedAttributesInternal>
+          <providedInterface Id="b0a18f67-6c1b-43d8-a841-a26de73f11a9" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="ab57f5ac-28f9-4ed3-8a7d-34a0181194c2" />
+            <type_NamedElement>
+              <interfaceMoniker Id="2f84abd2-0663-4907-842a-e98f8aa4d612" LastKnownName="Корзина" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="b85e5475-7919-4f4c-a0fd-f7e2b0c142b5" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="76e18553-e420-4a89-9ec0-552b9c00ff72" />
+            <type_NamedElement>
+              <interfaceMoniker Id="0dd80c9c-9cca-43b1-a1ed-8654384391d1" LastKnownName="Оформление заказа" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="01e5df63-ca65-4d8f-b4f4-468712fc0b27" name="Component6" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="282e38cf-e8eb-4ff1-9223-125a95918076" />
+        <ownedAttributesInternal>
+          <providedInterface Id="bf66697b-d2bd-4240-a2ad-b35207af4c65" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="619b20b4-c42c-4ae3-9009-6194ae642396" />
+            <type_NamedElement>
+              <interfaceMoniker Id="aaeca711-5484-41bb-afd4-b2777d756793" LastKnownName="Оформление заказа" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="51ca4daf-2280-45fd-907c-6de81f689986" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="1ab29fae-736a-4896-a5cb-b2f67f24a322" />
+            <type_NamedElement>
+              <interfaceMoniker Id="d0906e0c-d04e-477c-91fb-28fe7c39c4b6" LastKnownName="Проверка прав доступа" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="f741fa86-cd77-4faa-86e1-1cdf9dedd810" name="Component7" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="712213fc-c820-4693-a8f7-0ec860083f76" />
+        <ownedAttributesInternal>
+          <providedInterface Id="5c4ab971-c78c-4fe9-b2ea-be2d4fe8563b" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="ae2fe810-fd7b-47a5-bc3c-e5053daadd42" />
+            <type_NamedElement>
+              <interfaceMoniker Id="7fd2293d-c10d-4814-b55f-bde299cf03d5" LastKnownName="Админ-панель" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="caa993cc-9c54-4b99-b25b-d73e53a9271b" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="7e5a99b6-a8fd-47fe-88b7-24d0e16cc0aa" />
+            <type_NamedElement>
+              <interfaceMoniker Id="aea214f2-667d-469a-8b97-f1b732dfacaf" LastKnownName="Проверка прав доступа" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ccd3fffb-65b4-49ca-b8db-e07636f6d57b" name="Component8" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d4e94934-2f0e-45e2-b3c4-cc030ae58086" />
+        <ownedAttributesInternal>
+          <requiredInterface Id="a48d7678-d6bb-4cdd-8611-562e11ddf937" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="d6ee94ef-32e9-4627-9e26-880dba152aad" />
+            <type_NamedElement>
+              <interfaceMoniker Id="bb25a9b9-9197-4af7-b55a-0e6f7215b89b" LastKnownName="Проверка прав доступа" />
+            </type_NamedElement>
+          </requiredInterface>
+          <providedInterface Id="ae60c194-e346-4a68-aac0-1d911d76e519" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="4cdb736a-08d8-4d52-b003-3502d6c051a0" />
+            <type_NamedElement>
+              <interfaceMoniker Id="97dfb7fc-b876-438d-81f2-ac54690f2c9d" LastKnownName="Личный кабинет пользователя" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="b6b431b9-7ed0-4cdc-9d71-a4626885340a" name="Component9" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5f8cc52c-24d8-4e75-b1e1-62e7076a9bba" />
+        <ownedAttributesInternal>
+          <providedInterface Id="9d2b588d-4e95-4867-ad00-c6349d7f6568" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="aa549b9e-cced-4013-be8f-ed3a765142e0" />
+            <type_NamedElement>
+              <interfaceMoniker Id="6bd10fab-a7a6-414a-9885-85996305e084" LastKnownName="Проверка прав доступа" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="1b99a7be-45ab-4f27-bf57-f4e77e256029" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="758ba411-5178-440e-843f-bf59153d46d9" />
+            <type_NamedElement>
+              <interfaceMoniker Id="3ec0c85a-aec1-4611-a540-bb9d07169dbd" LastKnownName="Авторизация" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="d5822dc8-8ad9-4810-b653-f9ebb6faeb4a" name="Просмотр товаров" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6122445a-af3a-4f02-a9f9-cc44977e6db0" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="f38ed959-be3f-42db-873c-b62395d605fc" name="Корзина" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1704cdfc-619a-425f-885a-bf67a62887cc" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="318b14d1-cfbc-4a6e-822a-7ef88aa800d0" name="Оформление заказа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e3fa49b4-71bb-4b19-a976-347b173fa237" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="dc7b0315-7786-4ab7-b537-e1b50b506765" name="Авторизация" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c466d005-ef09-4dc6-bb06-6c4762b6c855" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="d9526c2c-8f98-4424-82c4-e0c8557f0429" name="Админ-панель" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="df8ff0c4-6e94-493f-afe9-202549a6c0af" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="b150c263-5488-43ea-82ec-7f14832fa6d8" name="Личный кабинет пользователя" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="55bd3546-3495-4cc8-830f-ece22b6756c9" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="86f6472e-17ef-42a3-bb0a-ef9b3ec37ea6" name="Просмотр товаров" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="89b8fa5d-234e-414d-b75a-d654187c2500" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="a274029b-85b5-492b-ad3a-a287ac5d5251" name="Корзина" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4cd70cf0-4b0f-43d8-a2b2-5cef28812a9b" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="7fd2293d-c10d-4814-b55f-bde299cf03d5" name="Админ-панель" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5847fe95-9936-4e12-83eb-83df51db7685" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="aea214f2-667d-469a-8b97-f1b732dfacaf" name="Проверка прав доступа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a6b28513-1959-4dbe-a041-8de0fcdb0011" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="bb25a9b9-9197-4af7-b55a-0e6f7215b89b" name="Проверка прав доступа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6231b352-ee26-43b3-93ea-b961d72f6599" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="97dfb7fc-b876-438d-81f2-ac54690f2c9d" name="Личный кабинет пользователя" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d078392c-0aee-4c22-9f1d-951ffcd7931d" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="6bd10fab-a7a6-414a-9885-85996305e084" name="Проверка прав доступа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="25070c3c-adf1-4f2b-b457-7e86c94ba301" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="3ec0c85a-aec1-4611-a540-bb9d07169dbd" name="Авторизация" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bccf2186-def7-4fad-b6fd-f1c8992d4074" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="aaeca711-5484-41bb-afd4-b2777d756793" name="Оформление заказа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0f9ccff5-9617-493b-b473-e460b14c6b44" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="d0906e0c-d04e-477c-91fb-28fe7c39c4b6" name="Проверка прав доступа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4faa09f6-bcc5-4a17-aec8-bc2ea66031d2" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="2f84abd2-0663-4907-842a-e98f8aa4d612" name="Корзина" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e5b417c7-4ddf-446a-91cf-22f995c445a8" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="0dd80c9c-9cca-43b1-a1ed-8654384391d1" name="Оформление заказа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8a5438dd-d028-4627-b793-95c7ecd61510" />
+      </Interface>
+    </modelContainsNamedElements>
+  </packagedElements>
+  <package Id="09073edd-657a-4252-9ce0-789ebb83fc37" name="AudioVideoEquipment.Models">
+    <elementDefinition Id="dffe5a66-be2f-44a3-a662-4275cf37af6a" />
+    <profileInstances>
+      <packageHasProfileInstances Id="bec07eba-0466-4670-8712-dbaa5dd7c753">
+        <profileInstance Id="05e89eca-91fe-4c01-b835-a76f83dc03e3" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c98137f3-c889-4318-abff-eb8cb2646490">
+        <profileInstance Id="f5d36e22-e501-4f88-806a-602e6ed31c31" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>
